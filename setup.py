@@ -33,7 +33,8 @@ setup(
     long_description=long_description,
     url="https://github.com/Dual-Points/autoesp",
     packages=setuptools.find_packages(),
-    include_package_data=False,
+    include_package_data=True,
+    package_data={'': ['firmwares/*', 'modules/']},
     install_requires=[
           'esptool',
           'adafruit-ampy', 
