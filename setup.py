@@ -31,7 +31,7 @@ setup(
     author_email="sen.lei@outlook.com",
     description="An useful CLT for auto-test espressif boards. ",
     long_description=long_description,
-    url="https://github.com/Dual-Points/espressif-auto-test",
+    url="https://github.com/Dual-Points/autoesp",
     packages=setuptools.find_packages(),
     include_package_data=False,
     install_requires=[
@@ -45,5 +45,5 @@ setup(
         "License :: OSI Approved :: BSD License",
         "Operating System :: OS Independent",
     ],
-    keywords='espressif, iot, serial, clt, boards, mcu, mpu, test',
+    keywords='espressif, esp, esp32, esp8266, iot, serial, clt, boards, mcu, mpu, test',
 )
