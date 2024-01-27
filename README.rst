@@ -18,7 +18,9 @@ Usage
 
 - Install ``autoesp`` on your computer using pip/pip3.
 
-      pip install autoesp
+   .. code:: shell
+
+      $ pip install autoesp
 
 
 - Make sure you have the corresponding ``Serial to USB driver`` installed on your computer.
@@ -28,7 +30,7 @@ Usage
 
    .. code:: shell
 
-      autoesp
+      $ autoesp
 
 
 
