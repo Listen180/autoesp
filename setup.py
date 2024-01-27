@@ -46,4 +46,7 @@ setup(
         "Operating System :: OS Independent",
     ],
     keywords='espressif, esp, esp32, esp8266, iot, serial, clt, boards, mcu, mpu, test',
+    entry_points={'console_scripts': [
+        'autoesp = autoesp.autoesp:main',
+        ]},
 )
