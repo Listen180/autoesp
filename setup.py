@@ -31,10 +31,11 @@ setup(
     author_email="sen.lei@outlook.com",
     description="An useful CLT for auto-test espressif boards. ",
     long_description=long_description,
+    long_description_content_type='text/x-rst',
     url="https://github.com/Dual-Points/autoesp",
     packages=setuptools.find_packages(),
     include_package_data=True,
-    package_data={'': ['firmwares/*', 'modules/']},
+    package_data={'': ['firmwares/*']},
     install_requires=[
           'esptool',
           'adafruit-ampy', 

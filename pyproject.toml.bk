@@ -1,0 +1,37 @@
+[project]
+name = "autoesp"
+version = "0.0.1"
+authors = [
+  { name="Sen LEI", email="sen.lei@outlook.com" },
+]
+maintainers = [
+  { name="Sen LEI", email="sen.lei@outlook.com" },
+]
+description = "An useful CLT for auto-test espressif boards. "
+readme = {file = "README.txt", content-type = "text/x-rst"}
+requires-python = ">=3.8"
+packages=setuptools.find_packages('src/'),
+include_package_data=True,
+install_requires=[
+      'esptool',
+      'adafruit-ampy', 
+  ]
+license="BSD 3-clause"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: BSD License",
+    "Operating System :: OS Independent",
+]
+keywords='espressif, esp, esp32, esp8266, iot, serial, clt, boards, mcu, mpu, test'
+
+
+
+[project.entry-points.'console_scripts']
+autoesp = "autoesp.autoesp:main"
+    
+
+[project.urls]
+Homepage = "https://github.com/Dual-Points/autoesp"
+Repository = "https://github.com/Dual-Points/autoesp"
+
