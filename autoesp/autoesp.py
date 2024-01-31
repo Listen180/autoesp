@@ -181,7 +181,8 @@ def main():
     echo "[ALL DONE]"
     echo "----------"
     """
-    os.system(cmd)
+
+    subprocess.call(["bash", "-c", cmd])
 
 
 if __name__ == '__main__':
